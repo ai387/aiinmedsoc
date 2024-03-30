@@ -1,7 +1,7 @@
 //unique UI which we see when we visit localhost:3000
 
 import Image from "next/image";
-import navbar from '../components/navbar'
+import navbar from '../components/navbar/page'
 
 export default function Home() {
   return (
@@ -102,6 +102,8 @@ export default function Home() {
         <div>
           Cambridge University Medicine in AI Society <br/>
         </div>
+
+        // include a subscribe here hyperlink
 
       </div>
 
