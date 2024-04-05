@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import NavBar from '../components/navbar'
+import PageFooter from "@/components/footer";
 
 export default function Home() {
   return (
@@ -17,14 +18,14 @@ export default function Home() {
       before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10
       after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <div>
+          put in logo and fade it into the background
           Cambridge University Medicine in AI Society <br/>
         </div>
-
-        // include a subscribe here hyperlink
-
+        include a subscribe here hyperlink 
       </div>
 
 
+      <PageFooter/>
 
     </main>
   );
