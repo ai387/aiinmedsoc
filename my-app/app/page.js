@@ -21,7 +21,7 @@ export default function Home() {
 
     <div className="text-sm p-5 ">
       <a href="https://lists.cam.ac.uk/sympa/subscribe/soc-aim"
-        className="group rounded-full border border-transparent px-5 py-4 transition-colors border-gray-300 hover:bg-gray-100">
+        className="group rounded-full border border-transparent px-5 py-4 transition-colors border-gray-300 hover:bg-gray-100  dark:border-gray-300 dark:hover:bg-gray-900">
         Join the Society
       </a>
     </div>
