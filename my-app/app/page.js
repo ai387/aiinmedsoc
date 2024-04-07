@@ -3,19 +3,26 @@
 import Image from "next/image";
 import NavBar from '../components/navbar'
 import PageFooter from "@/components/footer";
+import Background1 from "@/components/background1";
+import backgroundimage from '../public/background1.png'
+
 
 export default function Home() {
   return (
 
+
     //<main className="flex min-h-screen flex-col items-center justify-between p-24">
     <main className="flex flex-col min-h-screen items-center justify-center p-24">
       
+    <Background1/>
+
     <NavBar/>
-    <div className="text-5xl font-bold items-center p-3">
+
+    <div className="text-5xl text-gray-300 font-bold items-center p-3">
       CU AIM
     </div>
 
-    <div className="text-1xl font-semibold items-center p-3">
+    <div className="text-1xl text-gray-300 font-semibold items-center p-3">
       Cambridge University Medicine in AI Society
     </div>
 
@@ -24,6 +31,7 @@ export default function Home() {
         className="group rounded-full border border-transparent px-5 py-4 transition-colors border-gray-300 hover:bg-gray-100  dark:border-gray-300 dark:hover:bg-gray-900">
         Join the Society
       </a>
+      
     </div>
 
 
