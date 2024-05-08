@@ -7,7 +7,7 @@ export default function NavBar() {
       
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-center">
           <a href="/about">
-            <h2 className={`mb-3 text-1xl font-semibold transition-transform hover:scale-125`}>
+            <h2 className={`mb-3 text-1xl font-semibold text-gray-300 transition-transform hover:scale-125`}>
               About {" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
@@ -19,7 +19,7 @@ export default function NavBar() {
 
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-center">
           <a href="/eventsPage">
-            <h2 className={`mb-3 text-1xl font-semibold transition-transform hover:scale-125`}>
+            <h2 className={`mb-3 text-1xl font-semibold text-gray-300 transition-transform hover:scale-125`}>
               Events & Blog {" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
@@ -31,7 +31,7 @@ export default function NavBar() {
 
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-center">
           <a href="/sponsors">
-            <h2 className={`mb-3 text-1xl font-semibold transition-transform hover:scale-125`}>
+            <h2 className={`mb-3 text-1xl font-semibold text-gray-300 transition-transform hover:scale-125`}>
               Sponsors{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
@@ -42,7 +42,7 @@ export default function NavBar() {
 
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-center">
           <a href="/contactPage">
-            <h2 className={`mb-3 text-1xl font-semibold transition-transform hover:scale-125`}>
+            <h2 className={`mb-3 text-1xl font-semibold text-gray-300 transition-transform hover:scale-125`}>
               Contact {" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
