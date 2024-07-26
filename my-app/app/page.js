@@ -10,10 +10,9 @@ import backgroundimage from '../public/background1.png'
 export default function Home() {
   return (
 
-
     //<main className="flex min-h-screen flex-col items-center justify-between p-24">
     <main className="bg-gradient-to-r from-[#04214E] via-[#06347E] to-[#04214E] flex flex-col min-h-screen items-center justify-center p-24">
-      
+
     <Logo1/>
 
     <NavBar/>

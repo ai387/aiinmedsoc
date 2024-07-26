@@ -5,12 +5,12 @@ import CUAIMcropped from '../public/CUAIMcropped.png'
 export default function Logo1() {
   return (
     <div 
-    className='fixed -z-1'>
+    className='place-items-center'>
       <Image
       alt="logo1"
       src={CUAIMcropped}
-      width = {190}
-      objectFit='cover '
+      width = {125}
+      object-fit='cover'
     />
     </div>
     
